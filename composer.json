@@ -1,0 +1,22 @@
+{
+  "name": "deng-php/wechat",
+  "description": "wechat:login",
+  "keywords": ["deng", "wechat", "login", "php"],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "deng",
+      "email": "1415551519@qq.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "DengPhp\\": "src"
+    }
+  },
+  "minimum-stability": "stable",
+  "require": {
+  }
+
+}
