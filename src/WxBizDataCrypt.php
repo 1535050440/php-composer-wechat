@@ -70,7 +70,10 @@ class WxBizDataCrypt
         {
             return self::$IllegalBuffer;
         }
-        $data = $result;
+
+        //  https://developers.weixin.qq.com/miniprogram/dev/framework/open-ability/getPhoneNumber.html
+        $data = json_decode($result);
+
         return self::$OK;
     }
 
